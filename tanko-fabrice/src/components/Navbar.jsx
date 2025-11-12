@@ -3,7 +3,7 @@ import ThemeToggle from "./Themetoggle";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import background from "../assets/bg-pic.jpg";
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +11,7 @@ function Navbar() {
 
   return (
     <nav
-      style={{ backgroundImage: `url(${background})` }}
-      className="bg-cover bg-center bg-no-repeat flex items-center justify-between px-6 py-4 text-accent font-poppins relative"
+      className="bg-primary flex items-center justify-between px-6 py-4 text-accent font-poppins relative"
     >
     
       {/* Logo */}
