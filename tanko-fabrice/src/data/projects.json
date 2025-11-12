@@ -1,0 +1,24 @@
+
+[
+    {
+    "id": 1,
+    "thumbnail": "/assets/ServiceFinder.png",
+    "title": "Service Finder App",
+    "description": "A modern web application that helps users discover and connect with local service providers efficiently. Featuring category-based search, real-time filtering, and a user-friendly interface, it demonstrates practical use of React, Tailwind CSS, and dynamic data handling.",
+    "techStack": ["ReactJS", "Tailwind CSS", "Git and GitHub", "VS code" ],
+    "demoLink": "https://alx-fe-capstone-sable.vercel.app/",
+    "repoLink": "https://github.com/Tanko99/my-capstone"
+    },
+
+    {
+        "id": 2,
+        "thumbnail": "/assets/portfolio.png",
+        "title": "My personal website",
+        "description": "A sleek, interactive space that reflects my personality and journey as a front-end developer. It highlights my best projects, skills, and experiences through a modern design powered by React and Tailwind CSS.",
+        "techStack": ["React", "Vite", "Tailwind CSS", "Lucide Icons", "Formik", "EmailJS", "JavaScript (ES6+)", "HTML5", "CSS3", "Git & GitHub"],
+        "demoLink": "https://tanko-portfolio.vercel.app/",
+        "repoLink": "https://github.com/Tanko99/Tanko-Portfolio"
+    }
+
+
+]
