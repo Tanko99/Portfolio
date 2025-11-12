@@ -11,7 +11,7 @@ function Skills() {
 
       <div className="grid sm:grid-col-1 lg:grid-cols-2 gap-10 mx-auto">
         {/* Front-End Development */}
-        <div className="bg-gray-900 dark:bg-gray-700 dark:text-gray-900  rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
+        <div className="bg-gray-900 dark:bg-primary dark:text-gray-300  rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
           <div className="flex items-center gap-3 mb-4">
             <Code2 className="text-gray-200  w-15 h-15" />
             <h3 className=" font-semibold md:text-3xl sm:text-xl text-lg text-gray-200">
@@ -28,7 +28,7 @@ function Skills() {
         </div>
 
         {/* Tools & Workflow */}
-        <div className="bg-gray-900 dark:bg-gray-700 dark:text-gray-900 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
+        <div className="bg-gray-900 dark:bg-primary dark:text-gray-300 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
           <div className="flex items-center gap-3 mb-4">
             <Settings className="text-white w-15 h-15" />
             <h3 className="md:text-3xl sm:text-2xl  font-semibold text-xl text-gray-200">
