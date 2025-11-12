@@ -20,13 +20,13 @@ function Home(){
                          <p className="md:text-2xl sm:text-xl text-lg mt-8 mb-8 font-semibold">Hi, I'm <strong>Tanko Fabrice Ngala</strong> a frontend web developer and a cyber security enthusiast, passionate
                         about crafting interactive websites and seamless digital experiences!
                 </p>
-                <Link to="/projects" className="flex items-center text-lg font-bold px-4 py-2 mb-6 rounded-xl bg-gray-900 text-gray-200 dark:bg-gray-300 dark:text-gray-900 transition "> View my work</Link>
-                <Link to="/contact" className="flex items-center text-lg mb-6  font-bold  gap-2 px-4 py-2 rounded-xl bg-gray-900 text-gray-200 dark:bg-gray-300 dark:text-gray-900">
+                <Link to="/projects" className="flex items-center text-lg font-bold px-4 py-2 mb-6 rounded-xl bg-gray-900 text-gray-200 dark:bg-primary dark:text-gray-300 transition "> View my work</Link>
+                <Link to="/contact" className="flex items-center text-lg mb-6  font-bold  gap-2 px-4 py-2 rounded-xl bg-gray-900 text-gray-200 dark:bg-primary dark:text-gray-300">
                 <Mail className="w-8 h-8"/>
                 Contact Me
                 </Link>
                 <a href="/Tanko_Fabrice_resume.pdf" download="Tanko_Fabrice_resume.pdf"
-                className="flex items-cemter gap-2 px-2 py-2 rounded-xl bg-gray-900 text-gray-200 dark:bg-gray-300 dark:text-gray-900  font-semibold">
+                className="flex items-cemter gap-2 px-2 py-2 rounded-xl bg-gray-900 text-gray-200 dark:bg-primary dark:text-gray-300  font-semibold">
                    <Download className="w-8 h-8" />  Download resume
                 </a>
             </div>
