@@ -5,13 +5,13 @@ import icon from '../assets/x-icon.png';
 
 function Footer(){
     return (
-        <footer className="bg-primary mt-20 px-6 py-6 font-poppins text-gray-200 flex flex-col md:flex-row
+        <footer className="bg-primary mt-20 px-6 py-4 font-poppins text-gray-400 flex flex-col md:flex-row
         md:items-center  md:justify-between md:gap-0 gap-4" >
             <img src={logo} alt="my logo"  className="w-16 h-16 rounded-full" />
-            <p className="text-sm  md:text-xl sm:text-lg text-center md:text-right">
+            <p className="text-lg text-center md:text-right">
                 &copy; {new Date().getFullYear()} <em>Tanko Fabrice. All rights reserved.</em>
              </p>
-            <div className="flex justify-center text-black md:justify-start / md:justify-end text-gray-400  gap-4 md:gap-6">
+            <div className="flex justify-center text-gray-800 md:justify-start / md:justify-end text-gray-400  gap-4 md:gap-6">
                 <a href="https://www.facebook.com/share/17gMMJNHhP/" target="_blank" rel="noopener nooreferrer">
                     <Facebook size={36}  />
                 </a>
