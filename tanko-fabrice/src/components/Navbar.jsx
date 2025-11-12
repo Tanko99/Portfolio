@@ -16,7 +16,7 @@ function Navbar() {
     
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <img src={logo} alt="My Logo" className="rounded-full w-20 h-20" />
+        <img src={logo} alt="My Logo" className="rounded-full w-32 h-32" />
         <ThemeToggle />
       </div>
 
